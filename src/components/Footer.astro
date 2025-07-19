@@ -3,41 +3,23 @@ const currentYear = new Date().getFullYear();
 
 const footerLinks = [
   {
-    title: "Home",
+    title: "Company",
     links: [
       { text: "Home", url: "/" },
       { text: "Features", url: "/features" },
+      { text: "Properties", url: "/properties" },
       { text: "Pricing", url: "/pricing" },
-      { text: "Contact", url: "/contact" }
-    ]
-  },
-  {
-    title: "Product",
-    links: [
-      { text: "Features", url: "/features" },
-      { text: "Pricing", url: "/pricing" },
-      { text: "FAQ", url: "/faqs" },
-      { text: "Changelog", url: "/changelog" },
-      { text: "Integrations", url: "/integrations" }
+      { text: "About Us", url: "/company" },
+      { text: "Contact", url: "/contact" },
     ]
   },
   {
     title: "Resources",
     links: [
       { text: "Blog", url: "/blog" },
-      { text: "Case Studies", url: "/case-study" },
-      { text: "404 Page", url: "/404" }
-    ]
-  },
-  {
-    title: "Company",
-    links: [
-      { text: "About Us", url: "/company" },
-      { text: "Careers", url: "/career" },
-      { text: "Contact", url: "/contact" },
-      { text: "Reviews", url: "/reviews" },
       { text: "Privacy Policy", url: "/privacy-policy" },
-      { text: "Terms of Service", url: "/terms-conditions" }
+      { text: "Terms of Service", url: "/terms-conditions" },
+      { text: "404 Page", url: "/404" }
     ]
   }
 ];
@@ -45,7 +27,7 @@ const footerLinks = [
 
 <footer class="bg-gray-900 text-white pt-16 pb-8">
   <div class="container-custom">
-    <div class="grid md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
       <div class="md:col-span-2 lg:col-span-2">
         <a href="/" class="flex items-center mb-6" aria-label="Go to homepage">
           <svg class="h-8 w-auto text-primary-400" viewBox="0 0 40 40" fill="currentColor">
