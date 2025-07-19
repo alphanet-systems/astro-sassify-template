@@ -43,9 +43,10 @@ const { Content } = await property.render();
     <section class="section relative z-10 overflow-hidden py-12 md:py-16">
       <div class="container-custom">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
-          {property.data.images.map(image => (
-            <img src={image} alt={property.data.title} class="w-full h-auto object-cover rounded-lg shadow-md" />
-          ))}
+          {property.data.images.map(image => {
+            const imageUrl = image.startsWith('/') ? image : image;
+            return <img src={imageUrl} alt={property.data.title} class="w-full h-auto object-cover rounded-lg shadow-md" />;
+          })}
         </div>
         <div class="prose dark:prose-invert max-w-none">
           <Content />
