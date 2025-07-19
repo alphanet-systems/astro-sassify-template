@@ -1,1 +1,1 @@
-feat: Tidy up footer by removing unused links and consolidating remaining ones.
+feat: Simplify footer layout and content
