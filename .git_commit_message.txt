@@ -1,1 +1,1 @@
-feat: Add back to properties link to single property page
+feat: Tidy up footer by removing unused links and consolidating remaining ones.
