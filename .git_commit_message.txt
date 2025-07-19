@@ -1,1 +1,1 @@
-feat: Simplify footer layout and content
+feat: Super simple footer
