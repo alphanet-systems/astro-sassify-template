@@ -1,1 +1,1 @@
-feat: Super simple footer
+feat highlight current page
